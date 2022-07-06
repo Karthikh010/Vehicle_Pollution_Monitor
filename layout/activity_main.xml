@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/he"
+        android:text="Vehicle Pollution Monitor"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:text="Sign in"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/regno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_credit_card_24"
+        android:drawablePadding="20dp"
+        android:hint="Registration Number"
+        android:padding="20dp"
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginbtn"
+        android:layout_below="@id/regno"
+        android:text="LOGIN"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addv"
+        android:layout_below="@id/loginbtn"
+        android:text="Add new vehicle"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/ic_baseline_add_24"
+        />
+
+</LinearLayout>

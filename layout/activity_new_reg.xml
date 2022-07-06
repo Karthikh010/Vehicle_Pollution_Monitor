@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Vehicle"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regt"
+        android:text="Registration Number"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/regno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/regt"
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/owt"
+        android:text="Owner"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/owt"
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/drt"
+        android:text="Date of Registration"
+        android:textColor="@color/white"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/regdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drt"
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ent"
+        android:text="Emission Norms"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_below="@+id/regdt" />
+
+    <EditText
+        android:id="@+id/emnrm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ent"
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ft"
+        android:text="Fuel"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_below="@+id/emnrm" />
+
+    <EditText
+        android:id="@+id/fuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ft"
+        android:background="#30ffffff"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:layout_below="@id/fuel"
+        android:text="ADD"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+</LinearLayout>

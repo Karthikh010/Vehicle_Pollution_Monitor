@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prev"
+        android:text="View Pervious"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next"
+        android:layout_below="@id/prev"
+        android:text="Check Now"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/due"
+        android:layout_below="@id/next"
+        android:text="Due is in"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>

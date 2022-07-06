@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/head"
+        android:text="Pollution Under Control"
+        android:textColor="#37EC12"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center"/>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Date :"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="**/**/****"
+            android:textColor="@color/white"
+            android:id="@+id/date"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Reg No :"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="KL XX X ****"
+            android:textColor="@color/white"
+            android:id="@+id/reg"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Emission Norms :"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="BHARATH STAGE IV"
+            android:textColor="@color/white"
+            android:id="@+id/norm"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Fuel :"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Petrol"
+            android:textColor="@color/white"
+            android:id="@+id/fu"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="Valid upto :"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="**/**/****"
+            android:textColor="@color/white"
+            android:id="@+id/vut"
+            />
+    </TableRow>
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C3302929"
+                android:text="Pollutant"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A44A1F1F"
+                android:text="units"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C3302929"
+                android:text="E Limits"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#A44A1F1F"
+                android:text="M Value"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#A44A1F1F"
+                android:text="CO"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#C3302929"
+                android:text="ppm"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#A44A1F1F"
+                android:text="3000"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#C3302929"
+                android:text="0.0*"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:id="@+id/co"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#C3302929"
+                android:text="Hydrocarbon"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#A44A1F1F"
+                android:text="ppm"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#C3302929"
+                android:text="200.0"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#A44A1F1F"
+                android:text="**.**"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:id="@+id/hc"
+                />
+        </TableRow>
+    </TableLayout>
+</TableLayout>
+</LinearLayout>
